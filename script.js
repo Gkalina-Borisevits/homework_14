@@ -10,7 +10,7 @@ async function getCountry() {
     countryImage.src = country.img;
    
     const {nameCountry, location, YearOfConstruction, rulers, residents} = country;
-    countryText.textContent = `Name of County: ${nameCountry} Location: ${location}\nYear of construction: ${YearOfConstruction}\n Rulers: ${rulers}\n Residents: ${residents}`;
+    countryText.textContent = `Name of County: ${nameCountry}\n Location: ${location}\nYear of construction: ${YearOfConstruction}\n Rulers: ${rulers}\n Residents: ${residents}`;
 
     countryText.style.whiteSpace = 'pre-line';
     countryText.style.fontFamily = 'Arial, sans-serif';
